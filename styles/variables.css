@@ -14,14 +14,14 @@
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --button-hover-border-color: #ff0070;
-  --header-footer-corners-color: #ff0070;
+  --decorated-zone-pseudoelements-color: #ff0070;
   --decorated-zone-title-color: #db00ff;
   --footer-title-shadow-color: #ff0070;
   --title-decor-color: #000028;
   --section-title-color: #ff0070;
   --section-text-color: #f1b2ce;
   --page-bg-image: url(../images/cover-image-dark.png);
-  --header-footer-padding: 10px;
+  --decorated-zone-padding: 10px;
   --content-padding-inline: 10px;
   --content-padding-block: 40px;
   --content-gap: 50px;
@@ -35,8 +35,8 @@
 
 @media (width >= 768px) {
   :root {
-    --header-footer-padding: 20px;
-    --header-footer-title-font-size: clamp(
+    --decorated-zone-padding: 20px;
+    --decorated-zone-font-size: clamp(
       7.5rem,
       0.5625rem + 14.4531vw,
       9.8125rem
